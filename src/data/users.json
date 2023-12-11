@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "first_name": "Mauro",
+    "last_name": "Rendón",
+    "email": "admin@admin.com",
+    "domicilio": "Ejemplo 1234",
+    "password": "$2a$10$rz31QrRxKsFPPSVoImvfo.TeuAjrkByFzPX.Y9YHKoSbHXLfsLR5y",
+    "category": "admin",
+    "image": "/images/logo-sin-fondo.png"
+  },
+  {
+    "id": 2,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "ejemplo@user.com",
+    "domicilio": "Ejemplo 1234",
+    "password": "$2a$10$uAECKb1ZTua3tJyymUhi.uH2Va3JSgA08LAp4Pajlg2YiMcGuifOu",
+    "category": "user",
+    "image": "/images/logo-sin-fondo.png"
+  }
+]
