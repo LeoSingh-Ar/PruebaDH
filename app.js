@@ -22,10 +22,11 @@ app.use(express.json()); //Se declara a Express que puede hacer uso de archivos 
 app.use(session({secret:'secret', resave: false, saveUninitialized: true})); //Configuración de Express Session.
 app.use(cookieParser()); //Se declara a express que use la funcionalidad de las cookies.
 
-app.get('/api/users', apiController.users);
-app.get('/api/users/:id', apiController.userDetail);
-app.get('/api/products', apiController.products);
-app.get('/api/products/:id', apiController.productDetail);
+//Api Rutas
+app.get('/users', apiController.users);
+app.get('/users/:id', apiController.userDetail);
+app.get('/products', apiController.products);
+app.get('/products/:id', apiController.productDetail);
 
 app.set('views', [path.join(__dirname, './src/views'),path.join(__dirname, './src/views/products'),path.join(__dirname, './src/views/users')]); //Se declara a EJS dónde debe buscar los archivos de vista.
 app.set('view engine', 'ejs'); //Se declara a Express que use EJS como Template Engine.
